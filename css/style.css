@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: gray;
+}
+img{
+    width: 100%;
+}
+h1,h2{
+    padding-bottom: 1,6rem;
+}
+p{
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+a{
+    background: gray;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    padding: 15px 10px;
+}
+a:hover{
+    background: #444;
+    color: white;
+}
+/* card */
+.card{
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+}
+.sasuke-card img{
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.sasuke-card{
+    background: white;
+    max-width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+.sasuke-card h2{
+    text-align: center;
+}
+.btn{
+   margin-left: 100px;
+}
+/* flex-images */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    height: 100%;
+}
+.flex-container .flex-item{
+    flex: 25%;
+    padding: 5px;
+}
+.flex-item img{
+    height: 350px;
+}
+.flex-item img:hover{
+    opacity: 0.8;
+}
+/* media queries */
+@media(max-width:650px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
